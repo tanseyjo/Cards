@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#QA6T-28] Cards Payment System Test</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://dmutah.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://dmutah.atlassian.net/browse/QA6T-23">Cards Payment System</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://dmutah.atlassian.net/browse/QA6T-23">QA6T-23</a>)</span>
+                <h3 class="formtitle"><img src="https://dmutah.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QA6T-28]&nbsp;<a href="https://dmutah.atlassian.net/browse/QA6T-28">Cards Payment System Test</a>
+            <span class="subText">
+               Created: 19/Jul/18                   &nbsp;Updated: 19/Jul/18
+
+                                                    &nbsp;Resolved: 19/Jul/18
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Failed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://dmutah.atlassian.net/secure/BrowseProject.jspa?id=10121">QA6 Tansey</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Execution
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="tsussex" id="word_reporter_tsussex" href="https://dmutah.atlassian.net/secure/ViewProfile.jspa?name=tsussex">Tansey Sussex</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-16589-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Preconditions:</b></td>
+                <td id="customfield_10037-16589-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Site can be accessed <a href="https://cards-beta.devclock.com/" class="external-link" rel="nofollow">here</a></li>
+	<li>Payment testing information can be accessed <a href="https://stripe.com/docs/testing" class="external-link" rel="nofollow">here</a></li>
+	<li>User should be logged into an account and on the home page.</li>
+	<li>* Refer to test plan 
+    <span class="jira-issue-macro" data-jira-key="QA6T-21" >
+                <a href="https://dmutah.atlassian.net/browse/QA6T-21" class="jira-issue-macro-key issue-link"  title="Cards Test Plan" >
+            <img class="icon" src="https://dmutah.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10490&avatarType=issuetype" />
+            QA6T-21
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">Open</span>
+            </span>
+.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Script:</b></td>
+                <td id="customfield_10039-16589-value" class="value" bgcolor="#ffffff" width="80%">      <ol>
+	<li>Click the Subscription button taking you to the subscription page
+	<ul>
+		<li>Confirm that the page is displaying your current subscription, stats, billing history and the free and pro subscription descriptions.</li>
+	</ul>
+	</li>
+	<li>Click the Upgrade To Pro button
+	<ul>
+		<li>This will bring up the Subscription page</li>
+	</ul>
+	</li>
+	<li>Click the Cancel Upgrade button
+	<ul>
+		<li>This will redirect you to the main Subscription page</li>
+	</ul>
+	</li>
+	<li>Click the Upgrade to Pro button again</li>
+	<li>Enter the following information
+	<ul>
+		<li>Card Number: 4242 4242 4242 4242</li>
+		<li>Expiration Date: 01/20</li>
+		<li>CVC 720</li>
+		<li>Zip 90210</li>
+	</ul>
+	</li>
+	<li>Click the Subscribe for $9/Month
+	<ul>
+		<li>Confirm that subscription information and billing history has been updated on the Subscription page</li>
+	</ul>
+	</li>
+	<li>Click to edit your payment information</li>
+	<li>Update payment information and click save.
+	<ul>
+		<li>Confirm that updated account information saved</li>
+	</ul>
+	</li>
+	<li>Select to downgrade your account to the free version</li>
+	<li>Follow prompts to remove payment information from your account.</li>
+	<li>Once payment has been accepted click the back arrow to return to the home page</li>
+	<li>Logout of the app</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Postconditions:</b></td>
+                <td id="customfield_10038-16589-value" class="value" bgcolor="#ffffff" width="80%">      <p>The user should be able to upgrade their account to the paid version, enter payment information, and access the payment system effectively.</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Execution Notes:</b></td>
+                <td id="customfield_10040-16589-value" class="value" bgcolor="#ffffff" width="80%">      <p>Adding payment method fail</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Expected Result:</b></td>
+                <td id="customfield_10051-16589-value" class="value" bgcolor="#ffffff" width="80%">      <p>User should be able to add a card to upgrade their account.</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Actual Result:</b></td>
+                <td id="customfield_10052-16589-value" class="value" bgcolor="#ffffff" width="80%">      <p>Cards cannot be added to the account.</p>
+  </td>
+            </tr>
+            </table>
+
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-11257"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="tsussex" id="word_commented_tsussex" href="https://dmutah.atlassian.net/secure/ViewProfile.jspa?name=tsussex">Tansey Sussex</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">19/Jul/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-11257"><td bgcolor="#ffffff">
+            <p>Bug report 
+    <span class="jira-issue-macro" data-jira-key="QA6T-29" >
+                <a href="https://dmutah.atlassian.net/browse/QA6T-29" class="jira-issue-macro-key issue-link"  title="Card Payment Addition Error" >
+            <img class="icon" src="https://dmutah.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            QA6T-29
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">Open</span>
+            </span>
+.</p>
+        </td></tr>
+            </table>
+Generated at Wed Aug 08 23:10:37 UTC 2018 by Tansey Sussex using Jira 1001.0.0-SNAPSHOT#100090-sha1:e1f36159049942a868292ec329caab3852405e7e.
+
+</body>
+</html>

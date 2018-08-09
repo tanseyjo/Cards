@@ -5,9 +5,9 @@
 
   <testsuite name="cardsTest"
     errors="0" failures="0" hostname="" id="" package="cardsTest" skipped="0"
-    tests="4" time="29.35" timestamp="Fri, 20 Jul 2018 21:23:41 GMT">
+    tests="4" time="35.39" timestamp="Sat, 21 Jul 2018 18:37:43 GMT">
   
-    <testcase name="Create Login Profile" classname="cardsTest" time="12.61" assertions="7">
+    <testcase name="Create Login Profile" classname="cardsTest" time="16.91" assertions="7">
 
     
 
@@ -24,7 +24,7 @@
     
     </testcase>
   
-    <testcase name="Login and logout of App" classname="cardsTest" time="2.536" assertions="4">
+    <testcase name="Login and logout of App" classname="cardsTest" time="3.060" assertions="4">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Create a deck of cards" classname="cardsTest" time="5.385" assertions="9">
+    <testcase name="Create a deck of cards" classname="cardsTest" time="6.281" assertions="9">
 
     
 
@@ -56,7 +56,7 @@
     
     </testcase>
   
-    <testcase name="Create cards" classname="cardsTest" time="8.823" assertions="9">
+    <testcase name="Create cards" classname="cardsTest" time="9.131" assertions="9">
 
     
 

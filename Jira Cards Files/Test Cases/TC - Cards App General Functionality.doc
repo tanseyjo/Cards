@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#QA6T-24] Cards App General Functionality</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://dmutah.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [QA6T-24]&nbsp;<a href="https://dmutah.atlassian.net/browse/QA6T-24">Cards App General Functionality</a>
+            <span class="subText">
+               Created: 19/Jul/18                   &nbsp;Updated: 20/Jul/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://dmutah.atlassian.net/secure/BrowseProject.jspa?id=10121">QA6 Tansey</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="tsussex" id="word_reporter_tsussex" href="https://dmutah.atlassian.net/secure/ViewProfile.jspa?name=tsussex">Tansey Sussex</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-16585-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://dmutah.atlassian.net/browse/QA6T-36">QA6T-36</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://dmutah.atlassian.net/browse/QA6T-36">Cards App Functionality Test</a>
+                    </td>
+                    <td>
+                        Test Execution
+                    </td>
+                    <td>
+                        Failed
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10008-16585-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-11" href="https://dmutah.atlassian.net/browse/PROJ-18">
+        Cards Testing
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Preconditions:</b></td>
+                <td id="customfield_10037-16585-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Site can be accessed <a href="https://cards-beta.devclock.com/" class="external-link" rel="nofollow">here</a></li>
+	<li>User should be logged into the site and on the home page.</li>
+	<li>Refer to test plan 
+    <span class="jira-issue-macro" data-jira-key="QA6T-21" >
+                <a href="https://dmutah.atlassian.net/browse/QA6T-21" class="jira-issue-macro-key issue-link"  title="Cards Test Plan" >
+            <img class="icon" src="https://dmutah.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10490&avatarType=issuetype" />
+            QA6T-21
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">Open</span>
+            </span>
+.</li>
+</ul>
+
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Script:</b></td>
+                <td id="customfield_10039-16585-value" class="value" bgcolor="#ffffff" width="80%">      <ol>
+	<li>Continuing from 
+    <span class="jira-issue-macro" data-jira-key="QA6T-22" >
+                <a href="https://dmutah.atlassian.net/browse/QA6T-22" class="jira-issue-macro-key issue-link"  title="Creating &amp; Editing a Cards User Account" >
+            <img class="icon" src="https://dmutah.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10489&avatarType=issuetype" />
+            QA6T-22
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">Open</span>
+            </span>
+</li>
+	<li>From the home page click ensure that the following design elements are present and in the following order:
+	<ul>
+		<li>Cards logo at top of page</li>
+		<li>Decks link and logo</li>
+		<li>Subscription link and logo</li>
+		<li>Contact Us link and logo</li>
+		<li>Settings link and logo</li>
+		<li>Logout link and logo</li>
+	</ul>
+	</li>
+	<li>Navigate to the Decks page
+	<ul>
+		<li>Ensure that the top banner displays the page name and a back arrow on the left, and a plus button on the right.</li>
+		<li>Ensure the Decks page shows your list of decks (or no decks if new), a description of the decks function, and a study button</li>
+	</ul>
+	</li>
+	<li>Return to the home screen</li>
+	<li>Navigate to the Subscription page
+	<ul>
+		<li>Ensure that the top banner contains the Subscription title and the back arrow.</li>
+		<li>The page should include your current subscription status, you game stats, free subscription info, pro subscription info, and an Upgrade to Pro button.</li>
+	</ul>
+	</li>
+	<li>Return to home page</li>
+	<li>Navigate to the Contact Us page
+	<ul>
+		<li>Confirm that the top banner includes the title and the back arrow</li>
+		<li>Confirm that the page contains the site's contact information</li>
+	</ul>
+	</li>
+	<li>Return to the home page</li>
+	<li>Navigate to the settings page
+	<ul>
+		<li>Confirm that the top banner contains the title, back arrow on the left, and the edit button on the right.</li>
+		<li>Confirm info on the page includes the user's name, email, password, a legal stuff area including terms of use and privacy policy, and the Delete button.</li>
+	</ul>
+	</li>
+	<li>Click on the Terms of Use and confirm it takes you to the appropriate page, return to the Settings page</li>
+	<li>Click on the Privacy Policy link and confirm it takes you to the appropriate page, return to the Settings page</li>
+	<li>Return to the home page and logout</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Test Postconditions:</b></td>
+                <td id="customfield_10038-16585-value" class="value" bgcolor="#ffffff" width="80%">      <p>All pages should be accessible and links should easily navigate between pages. </p>
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Testing the basic functionality and design of the Cards app.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed Aug 08 23:07:19 UTC 2018 by Tansey Sussex using Jira 1001.0.0-SNAPSHOT#100090-sha1:e1f36159049942a868292ec329caab3852405e7e.
+
+</body>
+</html>
